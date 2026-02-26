@@ -8,4 +8,18 @@ export const GlobalStyle = createGlobalStyle`
     font-size: ${({ theme }) => theme.fontSize.small};
     background-color: ${({ theme }) => theme.colors.background};
   }
+
+  img {width: 100%;}
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    
+  }
 `;
